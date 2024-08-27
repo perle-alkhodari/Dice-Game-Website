@@ -7,6 +7,7 @@ body {
 h1 {
     font-size: 5rem;
     font-family: "Lilita One", sans-serif;
+    margin:0px;
 }
 
 h3 {
@@ -19,13 +20,13 @@ h3 {
     width: 100vw;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0px;
+    margin: 4rem 0px;
 }
 
 .players {
     display: flex;
-    gap:8rem;
-    margin:2rem;
+    gap:15rem;
+    margin-top:3rem;
     font-family:"Jersey 10", system-ui;
     font-size:2rem;
 }
