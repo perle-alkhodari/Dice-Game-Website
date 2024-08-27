@@ -1,1 +1,47 @@
+body {
+    background-color: #CD5C08;
+    color: #FFF5E4;
+    text-align: center;
+}
 
+h1 {
+    font-size: 5rem;
+    font-family: "Lilita One", sans-serif;
+}
+
+h3 {
+    padding-top: 30px;
+    font-family: "Lilita One", sans-serif;
+}
+
+.container {
+    display:flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.players {
+    display: flex;
+    gap:8rem;
+    margin:2rem;
+    font-family:"Jersey 10", system-ui;
+    font-size:2rem;
+}
+
+.dice {
+    display: inline-block;
+}
+
+.players img {
+    background-color: #6A9C89;
+    border-radius: 1rem;
+    height: 17rem;
+}
+
+@media (max-width: 1030px) {
+    .players {
+        flex-direction: column;
+    }
+}
